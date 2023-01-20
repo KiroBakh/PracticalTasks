@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.hea {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(65, 162, 240);
+  height: 70px;
+  box-shadow: 0px 3px red;
+  
+}
+
+.header-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  margin-left: 30px;
+}
+.name {
+  color: white;
+  margin-left: 60px;
+}
+.login {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+
+a:hover {
+  text-shadow: 0px 1px red;
+}
+
+.foot {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(38, 50, 56);
+  color: white;
+  height: 130px;
+  text-align: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+img {
+  height: 220px;
+  width: 160px;
+  margin-left: 30px;
+  margin-bottom: -200px;
+  padding-top: 35px;
+  box-shadow: 0 0 40px 0 rgba(65, 162, 240, 0.2),
+    0 5px 5px 0 rgba(65, 175, 240, 0.24);
+}
+
+.blg {
+  width: 1397px;
+  height: 220px;
+  border: 2px solid black;
+  padding-bottom: 50px;
+}
+.opis {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+.avtrnam {
+  margin-left: 220px;
+}
+
+.detal {
+  margin-left: 1250px;
+  color: blue;
+  margin-bottom: 300px;
+}
